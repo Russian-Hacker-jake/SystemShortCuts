@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SystemShortcuts.exe" version="1.0.0.4" publicKeyToken="dc46500058ea9e6a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SystemShortcuts" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SystemShortcuts.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SystemShortcuts.exe" size="14304">
+      <assemblyIdentity name="SystemShortcuts" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E/Yj7g/sbgsv4oBjk2qHHgpI8ifRHo8Sl60CWdtfIqA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SystemShortcuts.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-R24M5C5P\maxio" issuerKeyHash="61593be28092b683bdaea768d8f12b68f5d773a7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eOzLz8RB1WHpWQrFekkIYl9z9qIzlNtKEyjU0zpH6WM=</DigestValue></Reference></SignedInfo><SignatureValue>LfNmv9/eDMSQQttsviE3Bi+Frpx0bbl2wvGBR9+rzK5LbFwWeemMou+CAOrOd5nAuwPxjuNyK2259bFGYdMisyb6iNJ4aZwZDYTYu9TWiinbssyKI2yKDowzhzqZkuOBF6zuhTdiacbZpjP2a2rSQtwcFsxsuGUet9R4WC/KXhY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sUV0GCuXicQlaI4djmxrEzhadrXZy+pFepJaDch6eB4gxfXCbohbczd/7xKVJfR9O+MstvGAzpbT0YbZUcp4/Tb29cHxOL2gvz2vTbvTeGmmO7spivMKJ4zjteyKLjR8EV6yvWwehigtnHTdVtJcy7a/B8DkdiWFArueHPH0bG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="63e9473ad3d428134adb9433a2f6735f6208497ac50a59e961d541c4cfcbec78" Description="" Url=""><as:assemblyIdentity name="SystemShortcuts.exe" version="1.0.0.4" publicKeyToken="dc46500058ea9e6a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-R24M5C5P\maxio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tkpNwqptQUpGcYqo3tnnuqZNOsYHnwdFHoPUeLBCTmY=</DigestValue></Reference></SignedInfo><SignatureValue>KOZZTjATyjds4KQxyzQdc63bOVbrs9E2ZSkC1LIjzj7NVrWvst1tOdb77HDtg7DeYDEJPyDHg9KGcqjB7+kB1S+zw5mpLnui2V38NcOl5X2XR4d8SMk0CXAO1ciGes/POeshGcAAS3zKdRkl4GpkvBjxpb+93d+Qb0jixvNYwTg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sUV0GCuXicQlaI4djmxrEzhadrXZy+pFepJaDch6eB4gxfXCbohbczd/7xKVJfR9O+MstvGAzpbT0YbZUcp4/Tb29cHxOL2gvz2vTbvTeGmmO7spivMKJ4zjteyKLjR8EV6yvWwehigtnHTdVtJcy7a/B8DkdiWFArueHPH0bG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKjN/XxgFBpROCGpm9TbwTzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBSADIANABNADUAQwA1AFAAXABtAGEAeABpAG8wHhcNMjAxMjE4MDMwNjQyWhcNMjExMjE4MDkwNjQyWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBSADIANABNADUAQwA1AFAAXABtAGEAeABpAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALFFdBgrl4nEJWiOHY5saxM4Wna12cvqRXqSWg3IengeIMX1wm6IW3M3f+8SlSX0fTvjLLbxgM6W09GG2VHKeP029vXB8Ti9oL89r02703hppju7KYrzCieM47Xsii40fBFesr1sHoYoLZx03VbSXMu2vwfA5HYlhQK7nhzx9GxtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAph203RTDvjoeyBYpBHxHL4ilU7yPLfV0HZZ5Q6GN9OizEGM9c48eZp+A3ruNmE/thrkXpvBPWSNnBbtXoz4UKKrDZAe0cNtvaJnoBJ/edOEBRenizSyFvEp5dKLILQuM1TfdTp6afNy/qqmvYMrWwryqKdYXXLYwKvHrNtr7lZ4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
